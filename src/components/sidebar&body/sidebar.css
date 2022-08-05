@@ -1,0 +1,40 @@
+.sidebar {
+  flex: 0.2;
+  background-color: black;
+  padding: 30px 20px;
+}
+
+.sidebar > img {
+  height: 50px;
+  object-fit: contain;
+}
+
+.sidebar_option {
+  margin-top: 30px;
+}
+
+strong {
+  font-size: 14px;
+  color: white;
+  display: block;
+  padding: 0 5px 8px;
+}
+
+hr {
+  width: 90%;
+  background-color: #333;
+  border-color: #333;
+}
+
+.sidebar_option_playlsts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+.sidebar_option_playlsts > div {
+  font-size: 14px;
+  padding: 3px 0;
+}

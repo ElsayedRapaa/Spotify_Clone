@@ -1,0 +1,21 @@
+.side_option {
+  color: gray;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  transition: color 200ms ease-in;
+}
+
+.side_option:hover {
+  color: white;
+}
+
+.sidebar_icon {
+  font-size: 25px;
+}
+
+.side_option > h4 {
+  font-size: 14px;
+}

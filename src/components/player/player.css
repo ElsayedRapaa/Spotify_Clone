@@ -1,0 +1,18 @@
+.player {
+  height: 100vh;
+}
+
+.player_body {
+  display: flex;
+  height: 100vh;
+  padding-bottom: 100px;
+}
+
+.palyer_footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #282828;
+}
